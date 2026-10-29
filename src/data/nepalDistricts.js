@@ -1,0 +1,93 @@
+// All 77 Districts of Nepal with English and Nepali names, exact Coordinates for Ephemeris calculation
+export const NEPAL_DISTRICTS = [
+  // कोशी प्रदेश (Koshi Province - 14 Districts)
+  { id: "taplejung", nameNp: "ताप्लेजुङ", nameEn: "Taplejung", province: "कोशी प्रदेश", lat: 27.3517, lng: 87.6694 },
+  { id: "sankhuwasabha", nameNp: "सङ्खुवासभा", nameEn: "Sankhuwasabha", province: "कोशी प्रदेश", lat: 27.5683, lng: 87.2064 },
+  { id: "solukhumbu", nameNp: "सोलुखुम्बु", nameEn: "Solukhumbu", province: "कोशी प्रदेश", lat: 27.6978, lng: 86.7288 },
+  { id: "panchthar", nameNp: "पाँचथर", nameEn: "Panchthar", province: "कोशी प्रदेश", lat: 27.1994, lng: 87.8284 },
+  { id: "ilam", nameNp: "इलाम", nameEn: "Ilam", province: "कोशी प्रदेश", lat: 26.9117, lng: 87.9272 },
+  { id: "jhapa", nameNp: "झापा", nameEn: "Jhapa", province: "कोशी प्रदेश", lat: 26.6438, lng: 87.8878 },
+  { id: "morang", nameNp: "मोरङ", nameEn: "Morang", province: "कोशी प्रदेश", lat: 26.6575, lng: 87.4589 },
+  { id: "sunsari", nameNp: "सुनसरी", nameEn: "Sunsari", province: "कोशी प्रदेश", lat: 26.6806, lng: 87.1656 },
+  { id: "dhankuta", nameNp: "धनकुटा", nameEn: "Dhankuta", province: "कोशी प्रदेश", lat: 26.9839, lng: 87.3375 },
+  { id: "terhathum", nameNp: "तेह्रथुम", nameEn: "Terhathum", province: "कोशी प्रदेश", lat: 27.1408, lng: 87.5342 },
+  { id: "bhojpur", nameNp: "भोजपुर", nameEn: "Bhojpur", province: "कोशी प्रदेश", lat: 27.1711, lng: 87.0475 },
+  { id: "khotang", nameNp: "खोटाङ", nameEn: "Khotang", province: "कोशी प्रदेश", lat: 27.1856, lng: 86.7911 },
+  { id: "okhaldhunga", nameNp: "ओखलढुङ्गा", nameEn: "Okhaldhunga", province: "कोशी प्रदेश", lat: 27.3183, lng: 86.5056 },
+  { id: "udayapur", nameNp: "उदयपुर", nameEn: "Udayapur", province: "कोशी प्रदेश", lat: 26.9039, lng: 86.5222 },
+
+  // मधेश प्रदेश (Madhesh Province - 8 Districts)
+  { id: "saptari", nameNp: "सप्तरी", nameEn: "Saptari", province: "मधेश प्रदेश", lat: 26.5889, lng: 86.7461 },
+  { id: "siraha", nameNp: "सिराहा", nameEn: "Siraha", province: "मधेश प्रदेश", lat: 26.6533, lng: 86.2081 },
+  { id: "dhanusha", nameNp: "धनुषा (जनकपुर)", nameEn: "Dhanusha", province: "मधेश प्रदेश", lat: 26.7289, lng: 85.9264 },
+  { id: "mahottari", nameNp: "महोत्तरी", nameEn: "Mahottari", province: "मधेश प्रदेश", lat: 26.8333, lng: 85.8000 },
+  { id: "sarlahi", nameNp: "सर्लाही", nameEn: "Sarlahi", province: "मधेश प्रदेश", lat: 26.9739, lng: 85.5564 },
+  { id: "rautahat", nameNp: "रौतहट", nameEn: "Rautahat", province: "मधेश प्रदेश", lat: 27.0000, lng: 85.3000 },
+  { id: "bara", nameNp: "बारा", nameEn: "Bara", province: "मधेश प्रदेश", lat: 27.0203, lng: 85.0069 },
+  { id: "parsa", nameNp: "पर्सा (वीरगञ्ज)", nameEn: "Parsa", province: "मधेश प्रदेश", lat: 27.1000, lng: 84.8333 },
+
+  // बागमती प्रदेश (Bagmati Province - 13 Districts)
+  { id: "kathmandu", nameNp: "काठमाडौं", nameEn: "Kathmandu", province: "बागमती प्रदेश", lat: 27.7172, lng: 85.3240 },
+  { id: "lalitpur", nameNp: "ललितपुर", nameEn: "Lalitpur", province: "बागमती प्रदेश", lat: 27.6667, lng: 85.3167 },
+  { id: "bhaktapur", nameNp: "भक्तपुर", nameEn: "Bhaktapur", province: "बागमती प्रदेश", lat: 27.6710, lng: 85.4298 },
+  { id: "kavrepalanchok", nameNp: "काभ्रेपलाञ्चोक", nameEn: "Kavrepalanchok", province: "बागमती प्रदेश", lat: 27.5322, lng: 85.5489 },
+  { id: "sindhupalchok", nameNp: "सिन्धुपाल्चोक", nameEn: "Sindhupalchok", province: "बागमती प्रदेश", lat: 27.9500, lng: 85.6833 },
+  { id: "rasuwa", nameNp: "रसुवा", nameEn: "Rasuwa", province: "बागमती प्रदेश", lat: 28.1400, lng: 85.2900 },
+  { id: "nuwakot", nameNp: "नुवाकोट", nameEn: "Nuwakot", province: "बागमती प्रदेश", lat: 27.9167, lng: 85.1667 },
+  { id: "dhading", nameNp: "धादिङ", nameEn: "Dhading", province: "बागमती प्रदेश", lat: 27.8667, lng: 84.9000 },
+  { id: "makwanpur", nameNp: "मकवानपुर (हेटौंडा)", nameEn: "Makwanpur", province: "बागमती प्रदेश", lat: 27.4167, lng: 85.0333 },
+  { id: "chitwan", nameNp: "चितवन (भरतपुर)", nameEn: "Chitwan", province: "बागमती प्रदेश", lat: 27.5291, lng: 84.3542 },
+  { id: "sindhuli", nameNp: "सिन्धुली", nameEn: "Sindhuli", province: "बागमती प्रदेश", lat: 27.2500, lng: 85.9667 },
+  { id: "ramechhap", nameNp: "रामेछाप", nameEn: "Ramechhap", province: "बागमती प्रदेश", lat: 27.3333, lng: 86.0833 },
+  { id: "dolakha", nameNp: "दोलखा", nameEn: "Dolakha", province: "बागमती प्रदेश", lat: 27.7000, lng: 86.0333 },
+
+  // गण्डकी प्रदेश (Gandaki Province - 11 Districts)
+  { id: "kaski", nameNp: "कास्की (पोखरा)", nameEn: "Kaski (Pokhara)", province: "गण्डकी प्रदेश", lat: 28.2096, lng: 83.9856 },
+  { id: "gorkha", nameNp: "गोरखा", nameEn: "Gorkha", province: "गण्डकी प्रदेश", lat: 28.0000, lng: 84.6333 },
+  { id: "lamjung", nameNp: "लमजुङ", nameEn: "Lamjung", province: "गण्डकी प्रदेश", lat: 28.2333, lng: 84.4000 },
+  { id: "tanahun", nameNp: "तनहुँ", nameEn: "Tanahun", province: "गण्डकी प्रदेश", lat: 27.9167, lng: 84.2500 },
+  { id: "syangja", nameNp: "स्याङ्जा", nameEn: "Syangja", province: "गण्डकी प्रदेश", lat: 28.1000, lng: 83.8667 },
+  { id: "parbat", nameNp: "पर्वत", nameEn: "Parbat", province: "गण्डकी प्रदेश", lat: 28.2333, lng: 83.6667 },
+  { id: "baglung", nameNp: "बागलुङ", nameEn: "Baglung", province: "गण्डकी प्रदेश", lat: 28.2667, lng: 83.6000 },
+  { id: "myagdi", nameNp: "म्याग्दी", nameEn: "Myagdi", province: "गण्डकी प्रदेश", lat: 28.3500, lng: 83.5667 },
+  { id: "mustang", nameNp: "मुस्ताङ", nameEn: "Mustang", province: "गण्डकी प्रदेश", lat: 28.7833, lng: 83.7333 },
+  { id: "manang", nameNp: "मनाङ", nameEn: "Manang", province: "गण्डकी प्रदेश", lat: 28.6667, lng: 84.0167 },
+  { id: "nawalpur", nameNp: "नवलपरासी (बर्दघाट सुस्ता पूर्व)", nameEn: "Nawalpur", province: "गण्डकी प्रदेश", lat: 27.6833, lng: 84.1833 },
+
+  // लुम्बिनी प्रदेश (Lumbini Province - 12 Districts)
+  { id: "rupandehi", nameNp: "रुपन्देही (बुटवल/भैरहवा)", nameEn: "Rupandehi", province: "लुम्बिनी प्रदेश", lat: 27.5000, lng: 83.4500 },
+  { id: "kapilvastu", nameNp: "कपिलवस्तु", nameEn: "Kapilvastu", province: "लुम्बिनी प्रदेश", lat: 27.5500, lng: 83.0500 },
+  { id: "parasi", nameNp: "नवलपरासी (बर्दघाट सुस्ता पश्चिम)", nameEn: "Parasi", province: "लुम्बिनी प्रदेश", lat: 27.5333, lng: 83.6667 },
+  { id: "palpa", nameNp: "पाल्पा", nameEn: "Palpa", province: "लुम्बिनी प्रदेश", lat: 27.8667, lng: 83.5500 },
+  { id: "arghakhanchi", nameNp: "अर्घाखाँची", nameEn: "Arghakhanchi", province: "लुम्बिनी प्रदेश", lat: 27.9000, lng: 83.0833 },
+  { id: "gulmi", nameNp: "गुल्मी", nameEn: "Gulmi", province: "लुम्बिनी प्रदेश", lat: 28.0667, lng: 83.2500 },
+  { id: "dang", nameNp: "दाङ", nameEn: "Dang", province: "लुम्बिनी प्रदेश", lat: 28.0500, lng: 82.3000 },
+  { id: "pyuthan", nameNp: "प्युठान", nameEn: "Pyuthan", province: "लुम्बिनी प्रदेश", lat: 28.1000, lng: 82.8667 },
+  { id: "rolpa", nameNp: "रोल्पा", nameEn: "Rolpa", province: "लुम्बिनी प्रदेश", lat: 28.3000, lng: 82.6333 },
+  { id: "east_ruku", nameNp: "पूर्वी रुकुम", nameEn: "Eastern Rukum", province: "लुम्बिनी प्रदेश", lat: 28.6333, lng: 82.7833 },
+  { id: "banke", nameNp: "बाँके (नेपालगञ्ज)", nameEn: "Banke", province: "लुम्बिनी प्रदेश", lat: 28.0500, lng: 81.6167 },
+  { id: "bardiya", nameNp: "बर्दिया", nameEn: "Bardiya", province: "लुम्बिनी प्रदेश", lat: 28.3000, lng: 81.3500 },
+
+  // कर्णाली प्रदेश (Karnali Province - 10 Districts)
+  { id: "surkhet", nameNp: "सुर्खेत", nameEn: "Surkhet", province: "कर्णाली प्रदेश", lat: 28.6000, lng: 81.6333 },
+  { id: "dailekh", nameNp: "दैलेख", nameEn: "Dailekh", province: "कर्णाली प्रदेश", lat: 28.8333, lng: 81.7167 },
+  { id: "jajarkot", nameNp: "जाजरकोट", nameEn: "Jajarkot", province: "कर्णाली प्रदेश", lat: 28.7000, lng: 82.2000 },
+  { id: "west_rukum", nameNp: "पश्चिम रुकुम", nameEn: "Western Rukum", province: "कर्णाली प्रदेश", lat: 28.6167, lng: 82.4667 },
+  { id: "salyan", nameNp: "सल्यान", nameEn: "Salyan", province: "कर्णाली प्रदेश", lat: 28.3667, lng: 82.1667 },
+  { id: "jumla", nameNp: "जुम्ला", nameEn: "Jumla", province: "कर्णाली प्रदेश", lat: 29.2747, lng: 82.1838 },
+  { id: "kalikot", nameNp: "कालिकोट", nameEn: "Kalikot", province: "कर्णाली प्रदेश", lat: 29.2333, lng: 81.7500 },
+  { id: "mugu", nameNp: "मुगु", nameEn: "Mugu", province: "कर्णाली प्रदेश", lat: 29.5333, lng: 82.1667 },
+  { id: "humla", nameNp: "हुम्ला", nameEn: "Humla", province: "कर्णाली प्रदेश", lat: 29.9667, lng: 81.8333 },
+  { id: "dolpa", nameNp: "डोल्पा", nameEn: "Dolpa", province: "कर्णाली प्रदेश", lat: 28.9833, lng: 82.8833 },
+
+  // सुदूरपश्चिम प्रदेश (Sudurpashchim Province - 9 Districts)
+  { id: "kailali", nameNp: "कैलाली (धनगढी)", nameEn: "Kailali", province: "सुदूरपश्चिम प्रदेश", lat: 28.7000, lng: 80.6000 },
+  { id: "kanchanpur", nameNp: "कञ्चनपुर (महेन्द्रनगर)", nameEn: "Kanchanpur", province: "सुदूरपश्चिम प्रदेश", lat: 28.9167, lng: 80.1833 },
+  { id: "dadeldhura", nameNp: "डडेलधुरा", nameEn: "Dadeldhura", province: "सुदूरपश्चिम प्रदेश", lat: 29.3000, lng: 80.5833 },
+  { id: "doti", nameNp: "डोटी", nameEn: "Doti", province: "सुदूरपश्चिम प्रदेश", lat: 29.2667, lng: 80.9833 },
+  { id: "achham", nameNp: "अछाम", nameEn: "Achham", province: "सुदूरपश्चिम प्रदेश", lat: 29.1167, lng: 81.3000 },
+  { id: "bajhang", nameNp: "बझाङ", nameEn: "Bajhang", province: "सुदूरपश्चिम प्रदेश", lat: 29.5667, lng: 81.2000 },
+  { id: "bajura", nameNp: "बाजुरा", nameEn: "Bajura", province: "सुदूरपश्चिम प्रदेश", lat: 29.5167, lng: 81.5667 },
+  { id: "baitadi", nameNp: "बैतडी", nameEn: "Baitadi", province: "सुदूरपश्चिम प्रदेश", lat: 29.5333, lng: 80.4667 },
+  { id: "darchula", nameNp: "दार्चुला", nameEn: "Darchula", province: "सुदूरपश्चिम प्रदेश", lat: 29.8500, lng: 80.5333 }
+];
