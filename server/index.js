@@ -99,7 +99,8 @@ function trackEvent(eventType, extra = {}) {
 
 // --- API ROUTES ---
 
-// Health & Claude Status
+// Health & Status
+app.get('/api/health', (req, res) => res.json({ status: 'ok', time: new Date().toISOString() }));
 app.get('/api/status', (req, res) => {
   let apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey || apiKey.trim() === '') {
